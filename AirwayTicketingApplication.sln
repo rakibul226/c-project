@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirwayTicketingApplication", "AirwayTicketingApplication.csproj", "{D8BCA3A6-B5DA-4F6E-ABA2-3EC8713721E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{57C89649-6EF2-42A5-A872-93821E599854} = {57C89649-6EF2-42A5-A872-93821E599854}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AT", "paraAT\AT.csproj", "{57C89649-6EF2-42A5-A872-93821E599854}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8BCA3A6-B5DA-4F6E-ABA2-3EC8713721E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BCA3A6-B5DA-4F6E-ABA2-3EC8713721E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BCA3A6-B5DA-4F6E-ABA2-3EC8713721E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BCA3A6-B5DA-4F6E-ABA2-3EC8713721E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C89649-6EF2-42A5-A872-93821E599854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C89649-6EF2-42A5-A872-93821E599854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C89649-6EF2-42A5-A872-93821E599854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C89649-6EF2-42A5-A872-93821E599854}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {122B449B-79EC-424C-8149-F9D103025A28}
+	EndGlobalSection
+EndGlobal
